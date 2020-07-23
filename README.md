@@ -1,6 +1,6 @@
 # Queue
 基数数组来实现的顺序队列-循环队列
-1.1 实现
+# 实现
 
 ```objectivec
 /// 循环队列、可以避免顺序队列的数据搬移操作，但是会浪费一个存储空间
@@ -18,7 +18,7 @@ class ArrayQueue: NSObject {
     }
 }
 ```
-1.2进队列
+# 进队列
 
 ```objectivec
     /// 进队列
@@ -39,7 +39,7 @@ class ArrayQueue: NSObject {
         return true
     }
 ```
-1.3出队列
+# 出队列
 
 ```objectivec
     /// 出队列
@@ -53,7 +53,7 @@ class ArrayQueue: NSObject {
         return data
     }
 ```
-1.4用法
+# 用法
 
 ```objectivec
         let arrayQueue = ArrayQueue.init(size: 4)
